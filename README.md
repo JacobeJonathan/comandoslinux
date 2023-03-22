@@ -1629,3 +1629,6 @@ s- udo apt-get update = siempre actualizar cuando se actualiza algo
 
 ## VER LISTA DE USUARIOS
 https://www.solvetic.com/tutoriales/article/8248-como-ver-lista-de-usuarios-linux/
+
+## ABRIR NUEVOS TERMINALES
+- ctrl + shif + t
