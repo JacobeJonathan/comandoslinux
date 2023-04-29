@@ -1638,3 +1638,9 @@ https://www.solvetic.com/tutoriales/article/8248-como-ver-lista-de-usuarios-linu
  cat /etc/passwd
  
  ```
+ ## muestra los procesos que consumen más recursos en nuestro sistema
+ ## MUESTRA EL CONSUMO DE RAM NVRAM
+```
+ TOP
+ 
+ ```
