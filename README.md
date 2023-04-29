@@ -1644,3 +1644,16 @@ https://www.solvetic.com/tutoriales/article/8248-como-ver-lista-de-usuarios-linu
  TOP
  
  ```
+ ## NUNCA DAR PERMISOS A USUARIO
+```
+ 777
+ 
+ ```
+  ## LISTAR ARCHIVOS TXT
+```
+ ls *.txt
+ 
+ ```
+
+
+
