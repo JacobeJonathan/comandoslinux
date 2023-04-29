@@ -1632,3 +1632,9 @@ https://www.solvetic.com/tutoriales/article/8248-como-ver-lista-de-usuarios-linu
 
 ## ABRIR NUEVOS TERMINALES
 - ctrl + shif + t
+
+## VER USUARIO RECIEN CREADO
+```
+ cat /etc/passwd
+ 
+ ```
