@@ -1660,5 +1660,45 @@ SETXKBMAP -QUERY
 SETXKBMAP ES
  
  ```
+## DANDO PERMISOS A ARCHIVOS
+- Permisos -> numero_de_representación
+- — -> 0
+- –x -> 1
+- -w- -> 2
+- -wx -> 3
+- r-- -> 4
+- r-x -> 5
+- rw- -> 6
+- rwx -> 7
 
+- r: permiso de lectura
+- w: permiso de escritura
+- x: permiso de ejecucion
+
+- propietario grupo todos
+- owner group anyone
+- rwx rwx rwx
+
+- Los tipos de permisos más comunes, o su combinación, son los siguiente:
+
+- 666 ( RW / RW / RW)
+- Esta opción permite que todos los usuarios puedan leer y escribir en un archivo.
+
+- 777 ( RWX / RWX /RWX)
+- Esta opción permite que todos los usuarios puedan leer, escribir y ejecutar en el archivo o carpeta
+
+- 755 sería (RWX / RX / RX)
+-  este permiso el propietario del archivo puede leer, escribir y ejecutar en el archivo mientras que los demás leer y escribir en el archivo mas no ejecutar.
+
+- 644 (RW / R / R)
+
+- Con este permiso el propietario puede leer y escribir en el archivo mientras los demás solo pueden leer.
+
+- 700 (RWX /—)
+Con este permiso el propietario tiene el control total del archivo mientras que los demás usuarios no tendrán acceso de ningún tipo al archivo.
+```
+CHMOD 764  nombredelarchi.sh
+
+ 
+ ```
 
