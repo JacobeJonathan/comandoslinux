@@ -1654,6 +1654,11 @@ https://www.solvetic.com/tutoriales/article/8248-como-ver-lista-de-usuarios-linu
  ls *.txt
  
  ```
-
+## CAMBIAR EL IDIOAMA DE LA TERMINAL A ESPAÑOL TEMPORAL
+```
+SETXKBMAP -QUERY
+SETXKBMAP ES
+ 
+ ```
 
 
